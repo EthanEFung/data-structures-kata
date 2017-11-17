@@ -1,0 +1,24 @@
+{
+  "name": "data-structures-kata",
+  "version": "1.0.0",
+  "description": "Practicing data structure manipulation",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EthanEFung/data-structures-kata.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EthanEFung/data-structures-kata/issues"
+  },
+  "homepage": "https://github.com/EthanEFung/data-structures-kata#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "jest": "^21.2.1"
+  }
+}
