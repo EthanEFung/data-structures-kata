@@ -20,8 +20,19 @@ function depthTraverseNonBinaryTree(tree, cb) {
   cb(tree);
 }
 
+function breadthTraverseNonBinaryTree(tree, cb) {
+  let queue = [tree];
+
+  while (queue.length > 0) {
+    let node = queue.shift();
+    queue.push(...node.children);
+    cb(node);
+  }
+}
+
 module.exports = {
   NonBinaryTree,
   BinaryTree,
-  depthTraverseNonBinaryTree
+  depthTraverseNonBinaryTree,
+  breadthTraverseNonBinaryTree
 };
