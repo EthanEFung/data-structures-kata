@@ -81,7 +81,7 @@ const TestBST = {
       left: {
         value: 11,
         left: null,
-        right: { value: 12, left: {}, right: {} }
+        right: { value: 12, left: null, right: null }
       },
       right: { value: 14, left: null, right: null }
     },
